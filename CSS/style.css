@@ -1,0 +1,363 @@
+a,
+a:hover {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.body {
+    background: #1da1f2;
+    font-family: 'Annie Use Your Telescope', cursive;
+
+}
+
+.main-centent {
+    background-color: #eff1f2;
+}
+
+.link-section {
+    background-color: #fff !important;
+
+    border-bottom: 1px solid #3c4856;
+}
+
+/* home page */
+.arrow-down {
+    font-size: 3rem;
+    color: #1a91da;
+    animation: bounce 1.5s infinite;
+}
+
+@keyframes bounce {
+    0% {
+        -webkit-transform: translateY(-20px);
+        opacity: .5;
+    }
+
+    60% {
+        opacity: 1;
+    }
+
+    100% {
+        -webkit-transform: translateY(40px);
+        opacity: .5
+    }
+}
+
+.description {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #0f1419;
+}
+
+.description a {
+    font-weight: bold;
+    color: #fff !important;
+    background-color: #7451EB;
+}
+
+.description a:hover {
+    background-color: rgba(116, 81, 235, .7);
+}
+
+div.list-links {
+    display: inline-block !important;
+
+}
+
+.list-links ul {
+    display: flex !important;
+
+}
+
+.list-links ul li:nth-child(1) a {
+    color: #f7f9fa;
+    font-size: 2.3rem;
+
+}
+
+.list-links ul li:nth-child(2) a {
+    color: #f7f9fa;
+    font-size: 2.3rem;
+
+}
+
+.list-links ul li:nth-child(1) a:hover {
+    color: #3C4856;
+}
+
+.list-links ul li:nth-child(2) a:hover {
+    color: #3C4856;
+}
+
+/*buttons*/
+.btn {
+    font-size: 25px;
+
+    font-weight: bold;
+    border-radius: 50px;
+    color: #fff !important;
+}
+
+.btn-randomQ {
+    background-color: #1da1f2 !important;
+}
+
+.btn-randomQ:hover {
+    background-color: #1a91da !important;
+
+}
+
+.btn-customizedQ {
+    background-color: #f7f9fa;
+    color: #1da1f2 !important;
+    border: solid 1px #1da1f2 !important;
+
+}
+
+.btn-customizedQ:hover {
+    background-color: #1a91da;
+    color: #fff !important;
+}
+
+/* buttons in customized page */
+
+.typeQ-btn {
+    color: #1da1f2 !important;
+    border: solid 1px #1da1f2 !important;
+}
+
+.typeQ-btn:hover {
+    color: #fff !important;
+    background-color: #1a91da !important;
+
+}
+
+/*end buttons*/
+
+/*pages titles */
+.quote-title,
+.quote-header {
+    color: #fff;
+    background-color: #1a91da;
+    font-weight: bold;
+
+}
+
+/* control buttons in all pages */
+.link-control i {
+    background-color: #1da1f2;
+    color: #fff !important;
+    border-radius: 50%;
+    font-size: 20px;
+
+}
+
+.link-control i:hover {
+    background-color: #3C4856;
+
+}
+
+.link-control .pg-span {
+    opacity: 0;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.link-control:hover .pg-span {
+    opacity: 1;
+    color: #3C4856;
+}
+
+.pg-span-Customized {
+    color: #1da1f2;
+    opacity: 1 !important;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.link-control:hover .pg-span-Customized {
+    color: #3C4856;
+
+}
+
+/* end of control buttons in all pages */
+
+
+/* btn to generate quotes */
+
+.generate-btn {
+    border: none;
+}
+
+.generate-btn:focus {
+    outline: 0 !important;
+}
+
+.generate-btn i {
+
+    color: #fff;
+    background-color: #1da1f2;
+    border-radius: 50%;
+    font-size: 40px;
+
+
+}
+
+.generate-btn i:hover {
+
+    background-color: #3C4856;
+
+}
+
+
+.icon {
+    font-size: 15px;
+}
+
+/* generator page*/
+.generate-section {
+    border-top: 1px solid #3c4856;
+}
+
+.btn-NrQ {
+    background-color: rgba(0, 0, 0, .9);
+    color: white !important;
+    border-radius: 0px !important;
+    font-size: 18px;
+}
+
+.btn-NrQ:hover {
+    background-color: #d8832d;
+}
+
+.exit-txt {
+    color: #dc3545;
+    /* font: 200 40px  "Gilroy", sans-serif; */
+    font: 200 40px 'Annie Use Your Telescope', cursive;
+
+    font-weight: bold;
+    letter-spacing: -2px;
+    cursor: pointer;
+
+}
+
+.exit-txt:hover {
+    color: #3c4856;
+
+
+}
+
+.btn-text-2 {
+    font-size: 60px;
+    opacity: 1 !important;
+}
+
+.btn-text-1,
+.btn-text-3 {
+    animation: animated 1.5s infinite;
+}
+
+@keyframes animated {
+    0% {
+        -webkit-transform: scale(1, 2);
+        opacity: 0;
+    }
+
+    50% {
+        opacity: .7;
+    }
+
+    100% {
+        -webkit-transform: scale(1, 2);
+        opacity: 1
+    }
+}
+
+
+.btn-generate {
+    border: 3px solid #d8832d;
+    background-color: #d8832d;
+    color: #000 !important;
+    font-size: 20px;
+    font-weight: 600;
+    outline: none;
+    border-radius: 5px;
+    border: none !important;
+    cursor: pointer;
+}
+
+.btn-generate:hover {
+    background-color: #e27d5f !important;
+    color: #fff !important;
+}
+
+
+
+.generated-quotes {}
+
+
+.quotes-p {
+    font-size: 20px;
+    font-weight: 600;
+    color: #1da1f2 !important;
+
+}
+
+.quit {}
+
+.quit p {
+    color: #e27d5f;
+    font-size: 20px;
+
+}
+
+/* hide original radio button */
+input[type=radio] {
+    display: none;
+}
+
+label.Nr {
+    font-weight: bold !important;
+}
+
+/* radio button customize */
+
+input[type=radio] + label:before {
+    content: '';
+    background: #fff;
+    border: 2px solid #3C4856;
+    display: inline-block;
+    vertical-align: middle;
+    width: 30px;
+    height: 30px;
+}
+
+/* radio butto when its selected */
+
+input[type=radio]:checked + label:before {
+    background: #3C4856;
+    border-color: #3C4856;
+    box-shadow: inset 0px 0px 0px 2px #fff;
+}
+
+.typeQuoteLabel {
+    font-weight: bold;
+
+}
+
+@media (max-width: 991px) {
+
+
+    .pg-span {
+        display: none;
+    }
+}

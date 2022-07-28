@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Quote project ">
+    <meta name="keywords" content="">
+    <meta name="author" content="Redhwane Dehak">
+    <title>Quote</title>
+    <link rel="icon" type="img/png" href="img/favicon.png">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <!-- style CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway:300,400,500,600" rel="stylesheet">
+
+</head>
+
+
+<body class="body">
+
+
+
+    <div class="container  text-center">
+        <div class="main-centent pb-5 text-center" id="content">
+            <div class="quote-header py-5">
+
+                <h1 class="title">Random Quotes</h1>
+            </div>
+            <div class="link-section  py-2 row mx-0 px-0">
+
+                <div class="col-6"> <button type="button" class=" btn  link-control back " id="generate" onclick="parent.location='index.html'" value="click here">
+                        <i class="fas fa-arrow-left p-3"></i>
+                        <span class="pg-span pg-span-next">Home</span>
+                    </button> </div>
+
+                <div class="col-6"><button type="button" class=" btn  link-control next back " id="generate" onclick="parent.location='customizedQuote.html'" value="click here">
+                        <span class="pg-span pg-span-next">Customized Quotes</span>
+                        <i class="fas fa-arrow-right p-3"></i>
+                    </button> </div>
+
+            </div>
+
+            <div class="generator-section py-4">
+
+                <h4 style="font-weight: bold" class="">Get Random Quotes
+                    <br> <i class="fas fa-hand-point-down pt-3"></i>
+                </h4>
+
+                <a href="#content" data-type="magic" class="generate-btn" role="button" id="random-generator-btn">
+                    <i class="fas feather fa-feather-alt p-4">
+
+                    </i>
+
+                </a>
+
+
+                <div class="pt-5 px-5">
+                    <div class="py-3 quotes-p" id="quote"> </div>
+
+                </div>
+
+            </div>
+        </div>
+
+
+    </div> <!-- end of container -->
+
+
+    <!-- jquery -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <!-- script-->
+    <script src="js/JsrandomQ.js"></script>
+</body>
+
+
+</html>
